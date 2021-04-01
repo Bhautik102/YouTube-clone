@@ -1,0 +1,54 @@
+.videoRow {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 850px;
+  display: flex;
+}
+
+.videoRow_thumbnail {
+  height: 180px;
+  width: 310px;
+}
+
+.videoRow_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 0;
+  padding-right: 30px;
+}
+
+.videoRow_info > h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.videoRow_info > p {
+  font-size: 14px;
+  color: gray;
+}
+
+.videoCard_avatar {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.videoRow_channel {
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.videoRow_channel > p {
+  font-size: 14px;
+  margin-left: 10px;
+  color: gray;
+}
+
+.videoRow_channel > .MuiSvgIcon-root {
+  font-size: 15px !important;
+  margin-left: 5px;
+  align-items: center;
+  color: gray;
+}
