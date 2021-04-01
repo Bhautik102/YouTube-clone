@@ -15,11 +15,14 @@ import {
   VideoLibrary,
   WatchLater,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <SidebarRow selected Icon={HomeIcon} title="Home" />
+      <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <SidebarRow selected Icon={HomeIcon} title="Home" />
+      </Link>
       <SidebarRow Icon={Explore} title="Explore" />
       <SidebarRow Icon={Subscriptions} title="Subscription" />
       <hr />

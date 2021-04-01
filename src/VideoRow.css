@@ -3,6 +3,11 @@
   margin-bottom: 30px;
   max-width: 850px;
   display: flex;
+  transition: transform 450ms;
+}
+
+.videoRow:hover {
+  transform: scale(1.04);
 }
 
 .videoRow_thumbnail {
@@ -21,11 +26,13 @@
 .videoRow_info > h4 {
   font-size: 20px;
   margin-bottom: 5px;
+  color: black !important;
+  font-weight: 600;
 }
 
 .videoRow_info > p {
   font-size: 14px;
-  color: gray;
+  color: gray !important;
 }
 
 .videoCard_avatar {
@@ -43,12 +50,12 @@
 .videoRow_channel > p {
   font-size: 14px;
   margin-left: 10px;
-  color: gray;
+  color: gray !important;
 }
 
 .videoRow_channel > .MuiSvgIcon-root {
   font-size: 15px !important;
   margin-left: 5px;
   align-items: center;
-  color: gray;
+  color: gray !important;
 }
